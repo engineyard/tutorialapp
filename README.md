@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails app is used on the Engine Yard blog post [Using jQuery with Rails: How To](https://www.engineyard.com/blog/using-jquery-with-rails-how-to).
 
-Things you may want to cover:
+Run the following commands to start the app.
 
-* Ruby version
+```
+git clone https://github.com/engineyard/tutorialapp
+cd tutorialapp
+bundle install
+bin/rake db:migrate
+bin/rake db:seed
+bin/rails s
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Check the app at http://localhost:3000/tutorials.
