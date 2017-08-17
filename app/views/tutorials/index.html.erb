@@ -5,3 +5,5 @@
     <li><%= tutorial.title %> <%= link_to "Hide", "", class: 'hide', data: {'js-hide-link' => true} %></li>
   <% end %>
 </ul>
+
+Search <%= text_field_tag 'search', '', data: {'js-search' => true} %>
