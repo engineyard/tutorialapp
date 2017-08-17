@@ -16,7 +16,8 @@
 
 $(document).ready(function() {
   $('[data-js-hide-link]').click(function(event){
-    $(this).parents('li').hide();
+    //$(this).parents('li').hide();
+    $(this).parents('li').fadeOut(2000);
     event.preventDefault(); 
   });
 });
