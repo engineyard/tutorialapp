@@ -16,7 +16,7 @@
 
 $(document).ready(function() {
   $('[data-js-hide-link]').click(function(event){
-    alert('You clicked the Hide link');
+    $(this).parents('li').hide();
     event.preventDefault(); 
   });
 });
