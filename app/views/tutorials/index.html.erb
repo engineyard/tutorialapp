@@ -2,6 +2,6 @@
 
 <ul>
   <% @tutorials.each do |tutorial| %>
-    <li><%= tutorial.title %></li>
+    <li><%= tutorial.title %> <%= link_to "Hide", "", class: 'hide', data: {'js-hide-link' => true} %></li>
   <% end %>
 </ul>
